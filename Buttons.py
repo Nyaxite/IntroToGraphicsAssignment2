@@ -24,7 +24,7 @@ class Button:
     def draw_button(self, surface, color, length, height, x, y, width):           
         for i in range(1,10):
             s = pygame.Surface((length+(i*2),height+(i*2)))
-            s.fill(color)
+            #s.fill(color)
             alpha = (255/(i+2))
             if alpha <= 0:
                 alpha = 1
